@@ -1,0 +1,42 @@
+.custom-dropzone {
+    border: 2px dashed #0d6efd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.custom-dropzone:hover {
+    background-color: #e9ecef;
+}
+.dz-preview {
+    text-align: center;
+}
+.dz-preview .dz-image {
+    display: flex;
+    justify-content: center;
+}
+.dz-preview .dz-image img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.dz-remove {
+    display: inline-block;
+    margin-top: 10px;
+    color: #dc3545;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dz-remove:hover {
+    text-decoration: none;
+}
+.custom-dropzone .icon {
+    font-size: 40px;
+    color: #0d6efd;
+}
+.custom-dropzone p {
+    margin: 0;
+}
+.custom-dropzone .small-text {
+    color: #6c757d;
+}
